@@ -46,7 +46,7 @@ while (soLanLogin <= 5){
         alert ("Đăng nhập thành công");
         break;
     }else{
-        alert(`Bạn nhập sai mật khẩu. Lần ${soLanLogin} / 5}`);
+        alert(`Bạn nhập sai mật khẩu. Lần ${soLanLogin} / 5`);
         soLanLogin +=1;
         if (soLanLogin === 5){
             lockedAccout = true;
