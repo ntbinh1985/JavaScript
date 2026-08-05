@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "tuhocCC"
+		},
+		{
+			"path": "../../../PAD/Script"
+		},
+		{
+			"path": "kienthucngoai"
+		},
+		{
+			"path": "../../../AI Agent"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "tuhocCC"
+	}
+}
