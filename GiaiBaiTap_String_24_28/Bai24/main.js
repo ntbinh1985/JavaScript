@@ -13,13 +13,13 @@ let soKyTuSpace =0;
 for (let i = 0; i< str.length; i++){
     let kyTu = str[i];
     if (kyTu >= "a" && kyTu <="z"){
-        soKyTuThuong +=1;
+        soKyTuThuong++;
     }else if (kyTu >="A" && kyTu <="Z"){
-        soKyTuInHoa += 1;
+        soKyTuInHoa++;
     }else if (kyTu >="0" && kyTu <="9"){
-        soKyTuSo +=1;
+        soKyTuSo++;
     }else if (kyTu ===" "){
-        soKyTuSpace +=1;
+        soKyTuSpace++;
     }
    }
 console.log(`Số ký tự thường trong chuỗi là : ${soKyTuThuong}`);
